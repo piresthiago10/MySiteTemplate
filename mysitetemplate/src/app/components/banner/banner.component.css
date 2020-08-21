@@ -1,0 +1,6 @@
+.jumbotron {
+    width: 100%;
+    height: 100vh;
+    background: url(https://image.shutterstock.com/image-photo/aerial-view-sea-waves-fantastic-600w-760441468.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
