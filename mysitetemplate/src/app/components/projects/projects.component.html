@@ -1,0 +1,12 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <quill-editor (onEditorChanged)="changedEditor($event)"></quill-editor>
+        </div>
+        <div class="col-md-6 bg-light">
+            <h3>Pŕe-visualização:</h3>
+            <p [innerHtml]="editorText"></p>
+            <!-- <quill-view [content]="editorText" format="text" theme="snow"></quill-view> -->
+        </div>
+    </div>
+</div>
