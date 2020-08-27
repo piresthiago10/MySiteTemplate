@@ -19,6 +19,8 @@ import { PortfolioAppComponent } from './components/portfolio-app/portfolio-app.
 import { PortfolioAddComponent } from './components/portfolio-add/portfolio-add.component';
 import { PortfolioEditComponent } from './components/portfolio-edit/portfolio-edit.component';
 import { ContactEditComponent } from './components/contact-edit/contact-edit.component';
+import { FormsModule } from '@angular/forms';
+import { QuillModule } from 'ngx-quill'
 
 @NgModule({
   declarations: [
@@ -42,7 +44,9 @@ import { ContactEditComponent } from './components/contact-edit/contact-edit.com
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    QuillModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
